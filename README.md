@@ -29,4 +29,5 @@ Welcome to **Travel Buddy**, a smart travel recommendation system built using Py
 ---
 
 ## 📁 Project Structure
-
+TRAVEL_BUDDY/
+├── app/
