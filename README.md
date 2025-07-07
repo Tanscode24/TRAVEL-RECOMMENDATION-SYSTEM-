@@ -29,25 +29,25 @@ Welcome to **Travel Buddy**, a smart travel recommendation system built using Py
 ---
 
 ## 📁 Project Structure
-TRAVEL_BUDDY/
-├── app/
-│   ├── __init__.py             # Initialize Flask app
-│   ├── routes.py               # URL routes and views
-│   ├── recommender.py          # Recommendation logic using ML
-│   ├── utils.py                # Helper functions (e.g., search, filters)
-│   ├── templates/
-│   │   └── index.html          # Frontend UI using Jinja2
-│   └── static/
-│       ├── css/
-│       ├── js/
-│       └── images/
-│
-├── data/
-│   └── tourist_places.jsonl    # Dataset
-│
-├── models/
-│   └── model.pkl               # ML model
-│
-├── requirements.txt            # Python dependencies
-├── run.py                      # Entry point to run Flask app
-└── README.md
+
+| File/Folder                  | Type          | Description                                |
+|-----------------------------|---------------|--------------------------------------------|
+| `TRAVEL_BUDDY/`             | 📁 Folder     | Root project directory                     |
+| ├── `app/`                  | 📁 Folder     | Contains main Flask app files              |
+| │   ├── `__init__.py`       | 🐍 Python     | Initialize Flask app                       |
+| │   ├── `routes.py`         | 🐍 Python     | URL routes and views                       |
+| │   ├── `recommender.py`    | 🐍 Python     | ML recommendation logic                    |
+| │   ├── `utils.py`          | 🐍 Python     | Helper functions (search, filters)         |
+| │   └── `templates/`        | 📁 Folder     | Jinja2 templates for frontend UI           |
+| │       └── `index.html`    | 🖥️ HTML       | Frontend homepage                          |
+| │   └── `static/`           | 📁 Folder     | Static assets (CSS, JS, images)            |
+| │       ├── `css/`          | 📁 Folder     | Stylesheets                                |
+| │       ├── `js/`           | 📁 Folder     | JavaScript files                           |
+| │       └── `images/`       | 📁 Folder     | Image assets                               |
+| ├── `data/`                 | 📁 Folder     | Dataset storage                            |
+| │   └── `tourist_places.json` | 📄 JSON     | Data file with tourist places              |
+| ├── `models/`               | 📁 Folder     | ML model directory                         |
+| │   └── `model.pkl`         | 📦 Pickle     | Trained ML model file                      |
+| ├── `requirements.txt`      | 📄 Text       | Python dependencies                        |
+| ├── `run.py`                | 🐍 Python     | Main entry point to run the Flask app      |
+| └── `README.md`             | 📄 Markdown   | Project documentation (this file)          |
