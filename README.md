@@ -31,3 +31,23 @@ Welcome to **Travel Buddy**, a smart travel recommendation system built using Py
 ## 📁 Project Structure
 TRAVEL_BUDDY/
 ├── app/
+│   ├── __init__.py             # Initialize Flask app
+│   ├── routes.py               # URL routes and views
+│   ├── recommender.py          # Recommendation logic using ML
+│   ├── utils.py                # Helper functions (e.g., search, filters)
+│   ├── templates/
+│   │   └── index.html          # Frontend UI using Jinja2
+│   └── static/
+│       ├── css/
+│       ├── js/
+│       └── images/
+│
+├── data/
+│   └── tourist_places.jsonl    # Dataset
+│
+├── models/
+│   └── model.pkl               # ML model
+│
+├── requirements.txt            # Python dependencies
+├── run.py                      # Entry point to run Flask app
+└── README.md
